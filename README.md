@@ -15,6 +15,10 @@ With `funer`, you can do the following:
 
 ## Install
 
+```sh
+pip install funer
+```
+
 ## How to use
 
 Create Document.
