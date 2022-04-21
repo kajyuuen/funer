@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "funer"
-version = "0.0.1"
+version = "0.0.2"
 description = "Rule based Named Entity Recognition tool."
 authors = ["Koga Kobayashi <kajyuuen@gmail.com>"]
 license = "MIT"
