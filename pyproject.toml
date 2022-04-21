@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "funer"
+version = "0.0.1"
+description = "Rule based Named Entity Recognition tool."
+authors = ["Koga Kobayashi <kajyuuen@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+spacy = "^3.2.4"
+pyahocorasick = "^1.4.4"
+texttable = "^1.6.4"
+CJKwrap = "^2.2"
+wcwidth = "^0.2.5"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+spacy = {extras = ["en"], version = "^3.2.4"}
+pytest = "^7.1.1"
+jupyter = "^1.0.0"
+ja-ginza = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
